@@ -8,7 +8,7 @@
             <h1><a href="/">Rylan's Blog</a></h1>
         </header>
 
-        {% for post in posts %}
+        {% for post in db %}
             <article>
                 <time>published: {{ post.published_date }}</time>
                 <h2><a href="">{{ post.title }}</a></h2>
